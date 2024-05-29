@@ -1,9 +1,13 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <h1 class="text-9xl">{{ message }}</h1>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      message: 'Hello Alejandro'
+    }
+  }
+}
+</script>
